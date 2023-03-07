@@ -1,0 +1,15 @@
+.container {
+    margin-top: 30px;
+  }
+  
+  .user-select{
+    margin-left: 56px;
+  }
+
+  .category-type{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .radio-input{
+    margin-right: 16px;
+  }

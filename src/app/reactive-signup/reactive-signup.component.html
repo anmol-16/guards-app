@@ -1,0 +1,16 @@
+<div class="container d-flex justify-content-center align-items-center">
+      <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+        <div class="radio" *ngFor="let option of category; let i in index">
+            <input
+              type="radio"
+              formControlName="category"
+              [value]="option"
+              class="radio-input"
+              id="i"
+              ><label class="m-2 category-type" for="i" >{{ option }}</label>
+        </div>
+        <button class="btn btn-success m-4" type="button" [disabled]="!signUpForm.valid" (click)="next()">Next</button>
+      </form>
+</div>
+
+  

@@ -1,0 +1,10 @@
+<form (ngSubmit)="onSubmit()">
+    <label for="name">Address:</label>
+    <input type="text" id="address" name="address" [(ngModel)]="generalformData.address" required>
+  
+    <label for="phone">phone:</label>
+    <input type="phone" id="phone" name="phone" [(ngModel)]="generalformData.phone" required>
+  
+    <button type="submit">submit</button>
+  </form>
+  

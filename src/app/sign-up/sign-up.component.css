@@ -1,0 +1,33 @@
+.form-details{
+    display: block;
+}
+.form-fill{
+    display: block;
+}
+
+.carousel-control-prev-icon,
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 22px;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 22px;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+.carousel{
+    width: 500px;
+    height: 200px;
+    scale: 0.5;
+}
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
